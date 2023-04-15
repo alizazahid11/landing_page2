@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/880/554/desktop-wallpaper-minimal-dark-coding-3840-x-2160-r-playstation-black-minimalist.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+    position:absolute;
+    opacity:0.89;
+    background-blend-mode: lighten;
+}
+.h-1{
+
+    text-align: center; 
+    font-size: 80px;
+    letter-spacing: 0.5rem;
+    color:white;
+    text-transform: uppercase;
+    font-style:normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+p{
+    color:white;
+    text-indent:20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+   line-height:2rem;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin:10px;
+   
+text-align: justify;
+}

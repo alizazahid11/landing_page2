@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+}
+#logo img{
+    height:150px;
+    width:150px;
+    margin:3px 6px
+}
+#home{
+    display:flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height:450px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content:"";
+background: url("https://png.pngtree.com/thumb_back/fh260/background/20201104/pngtree-technology-background-binary-computer-code-vector-illustration-image_458703.jpg") no-repeat center center/cover;
+position:absolute;
+height:80%;
+width:100%;
+z-index:-1;
+top:0px;
+left:0px;
+opacity:0.89;}
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Edu VIC WA NT Beginner', cursive;}
+    #home h1{
+        font-family: 'Edu NSW ACT Foundation', cursive;
+    }
+.btn{
+        padding:4px 10px;
+        border:2px solid white;
+        background-color: rgb(0, 3, 5);
+        color:white;
+        margin:17px 17px;
+        font-size: 1rem;
+        border-radius: 10px;
+        cursor:pointer;
+        text-decoration: none;
+    }
+    section button:hover{
+        color:black;
+        background-color: rgb(29, 84, 100);
+     
+    }
+    section button:active{
+        background-color: rgb(32, 26, 90);
+    }
+    center h1{
+        text-transform:uppercase;
+    }
+    #line-up{
+        width:1600px;
+        padding:10px;
+        /* border: 4px solid black; */
+        height:200px;
+        margin-left:90px;
+        /* background-color: rgba(75, 75, 80, 0.438); */
+        
+    }
+    #line-up .cs{
+        padding:20px;
+        margin:0 0 60px 450px;
+}
+#line-up .js{
+    padding:100px;
+    margin:100px 10px 0px 0px;
+    border:20px;
+}
+input{
+      padding:10px 14px 8px 14px;
+      background-color: rgb(228, 236, 236);
+}
+input.submit:hover{
+    background-color: rgb(29, 84, 100);
+
+}
+input.submit:active{
+    background-color: rgb(32, 26, 90);
+}
+input.text:focus{
+    color:rgb(40, 178, 241);
+}
+footer{
+   
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+    margin:100px 0 0 0;
+   
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+     justify-content: center;
+    flex-direction: column;
+text-align: center; 
+ }
+ .footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+
+
+}
+.socials a:hover i{
+    color: rgb(29, 84, 100);
+}
+.footer-bottom{
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-weight: 200;
+  
+}
+
+.hea-1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.8rem;
+    font-weight:300;
+}

@@ -1,0 +1,49 @@
+body{
+    background-image: url("https://hdwallpaperim.com/wp-content/uploads/2017/09/16/55213-minimalism-JavaScript-programming-motivational-get_back_to_code-748x421.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+    position:absolute;
+    opacity:0.89;
+    background-blend-mode:darken;
+    color:white;
+}
+.j-1{
+    text-align: center; 
+    font-size: 70px;
+    letter-spacing: 0.5rem;
+    color:white;
+    text-transform: uppercase;
+    font-style:normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.j-3{
+    text-align: left;
+    font-size:40px;
+    text-transform: capitalize;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    margin:20px;
+}
+.j-4{
+    text-align: left;
+    font-size:25px;
+    text-transform: capitalize;
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px;
+    font-weight:700;
+    color:rgb(214, 188, 42);
+}
+p{
+    text-indent:20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+   line-height:2rem;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin:20px;
+   text-align: justify;
+}
